@@ -1,7 +1,7 @@
 # Flask Docker Multi-Stage CI
 
 ## Overview
-This repository demonstrates a CI/CD pipeline using GitHub Actions to build a minimal Docker image with a Flask application using multi-stage builds. The pipeline automates the building, pushing of the Docker image to Docker Hub (or AWS ECR), and deployment to AWS ECS.
+This repository demonstrates a CI/CD pipeline using GitHub Actions to build a minimal Docker image with a Flask application using multi-stage builds. The pipeline automates the building, pushing of the Docker image to GitHub Container Registry (or AWS ECR), and deployment to AWS ECS.
 
 ## Project Structure
 - `app.py`: The Flask application.
