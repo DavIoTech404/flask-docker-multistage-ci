@@ -6,7 +6,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.actor }}/flask-cicd:latest
+  IMAGE_NAME: daviotech404/flask-cicd:latest
 
 jobs:
     publish:
